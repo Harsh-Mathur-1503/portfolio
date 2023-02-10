@@ -12,3 +12,16 @@
 .html{
   font-family: Poppins;
 }
+.content-div{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+.content-div:hover{
+  background-image: linear-gradient(
+    to right,
+    rgb(252, 209, 209)
+    rgb(174, 225, 225)
+  ); 
+}

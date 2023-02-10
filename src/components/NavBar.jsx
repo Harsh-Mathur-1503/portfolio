@@ -1,4 +1,6 @@
 import React,{useState} from 'react';
+import Image from 'next/image';
+import Logo from "../assets/logo.jpeg";
 import {FaBars,FaTimes,FaGithub,FaLinkedin} from "react-icons/fa";
 import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from "react-icons/bs"
@@ -12,7 +14,7 @@ const handleClick = () => setNav(!nav)
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#222831] text-gray-300'>
     <div>
-
+      <Image className='hidden md:flex' alt='logo img' src={Logo} style={{width:'160px'}}/>
     </div>
 
 

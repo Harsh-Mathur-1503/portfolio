@@ -1,6 +1,9 @@
 import NavBar from '@/components/NavBar';
 import Main from '@/components/Main';
 import Head from 'next/head';
+import About from '@/components/About';
+import Skills from '@/components/Skills';
+import Work from '@/components/Work';
 export default function Home() {
   return (
     <>
@@ -10,6 +13,9 @@ export default function Home() {
       </Head>
         <NavBar />
         <Main />
+        <About />
+        <Skills />
+        <Work />
     </>
   )
 }
