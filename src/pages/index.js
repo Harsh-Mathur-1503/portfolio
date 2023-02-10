@@ -4,11 +4,12 @@ import Head from 'next/head';
 import About from '@/components/About';
 import Skills from '@/components/Skills';
 import Work from '@/components/Work';
+import Contact from '@/components/Contact';
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Personal Portfolio</title>
+        <title>Harsh Mathur</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <NavBar />
@@ -16,6 +17,7 @@ export default function Home() {
         <About />
         <Skills />
         <Work />
+        <Contact />
     </>
   )
 }
