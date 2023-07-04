@@ -77,7 +77,7 @@ const handleClick = () => setNav(!nav)
           </a>
         </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] hover:bg-black'>
-          <a href="https://github.com/lonewolf1503" className='flex justify-between items-center w-full text-gray-300
+          <a href="https://github.com/Harsh-Mathur-1503" className='flex justify-between items-center w-full text-gray-300
           '>
           Github<FaGithub size={30} />
           </a>
